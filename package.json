@@ -1,0 +1,31 @@
+{
+  "name": "backend-hitssfinancecontrol",
+  "version": "1.0.0",
+  "description": "Backend do projeto de Controle Financeiro da HITSS",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crashkill/backend-HitssFinanceControl.git"
+  },
+  "keywords": [
+    "Hitss",
+    "Finance",
+    "Control"
+  ],
+  "author": "Fabricio Cardoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crashkill/backend-HitssFinanceControl/issues"
+  },
+  "homepage": "https://github.com/crashkill/backend-HitssFinanceControl#readme",
+  "dependencies": {
+    "restify": "^8.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
